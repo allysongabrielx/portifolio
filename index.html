@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio Allyson Gabriel</title><link rel="stylesheet" href="css/extends.css">
 
+    <link rel="stylesheet" href="css/componentes/skills.css">
+
+    <link rel="stylesheet" href="css/componentes/about.css">
+
     <link rel="stylesheet" href="css/componentes/header.css">
 
     <link rel="stylesheet" href="css/componentes/navbar.css">
@@ -14,7 +18,7 @@
     <link
       href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
       rel="stylesheet"/>
-    
+  <!---header-->  
 </head>
 <body>
     <nav class="navbar">
@@ -44,12 +48,78 @@
 
         <div class="header__right">
             <div class="header__image">
-                <img src="assets/allyson foto perfil.jpg" alt="Allyson Gabriel Imagem">
+                <img src="assets/allyson foto perfil.jpg" alt="Allyson Gabriel Imagem" class="allyson">
                 <img src="assets/abstract.svg" alt="background" class="background">
             </div>
         </div>
 
     </header>
+
+
+    <!--Sobre-->
+    <section id="about" class="about max-width">
+        <div class="about__left">
+                <h2 class="secondary-title"> Sobre mim</h2>
+                <p>Entre em contato comigo nas redes sociais abaixo para saber mais sobre o o meu trabalho</p>
+                <ul>
+                    <li><a href="#"><img src="assets/instagram.svg" alt="Instagram"></a></li>
+                    <li><a href="#"><img src="assets/linkedin.svg" alt="Linkedin"></a></li>
+                    <li><a href="#"><img src="assets/facebook.svg" alt="Facebook"></a></li>
+                </ul>
+
+
+        </div>
+
+        <div class="about__right">
+            <h3 class="tertiary-title mb-m">
+                Desenvolvedor front-end iniciando a carreira
+            </h3>
+            <p>
+                Sou biólogo formado empenhado em transitar para a programação. Atualmente, estou cursando Análise e Desenvolvimento de Sistemas para adquirir habilidades técnicas. Minha sólida formação em biologia proporcionou-me habilidades analíticas e resolução de problemas. Estou animado em aplicar meu conhecimento científico a desafios na área de desenvolvimento de software, contribuindo para projetos inovadores.
+            </p>
+
+            <p>
+                Minha trajetória profissional é marcada por uma diversidade de experiências, abrangendo desde atendimento ao cliente e vendas até a habilidade técnica na manipulação de hardware de celulares e reparos. Essa ampla gama de experiências me proporcionou uma visão abrangente do mundo profissional, desenvolvendo habilidades de comunicação sólidas e uma abordagem prática na resolução de problemas.
+            </p>
+        </div>
+
+    </section>
+
+    <!--Habilidades ou skills-->
+    <section id="skills" class="skills">
+        <div class="skills__content max-width">
+            <h2 class="tertiary-title">Habilidade ferramentas que domino</h2>
+    
+            <ul>
+                <li class="skills__item">
+                    <div class="image-container">
+                        <img src="assets/notebook.png" alt="Desenvolvimento Web">
+                    </div>
+                    <h3>Desenvolvimeto Web</h3>
+                    <p>Experiências em desenvolvimento web</p>
+                </li>
+                <li class="skills__item">
+                    <div class="image-container">
+                        <img src="assets/colors.png" alt="Web Design">
+                    </div>
+                    <h3>Web Design</h3>
+                    <p>Hababilidade em criar layouts modernos e responsívos</p>
+                </li>
+                <li class="skills__item">
+                    <div class="image-container">
+                        <img src="assets/phone.png" alt="Web Design">
+                    </div>
+                    <h3>UX/UI Design</h3>
+                    <p>Conhecimentos em design de interface e experiência do usuário visualmente atraentes e intuitivas</p>
+                </li>
+                
+            </ul>
+        
+        </div>
+
+        
+    </section>
+
     
 <script src="scripts/index.js"></script>
 
