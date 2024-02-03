@@ -32,3 +32,9 @@
     margin: 0 auto;
 
 }
+
+.skills .skills__content ul li h3{
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 2rem 0 1rem;
+}
