@@ -4,7 +4,23 @@
   left: 0;
   width: 100%;
   z-index: 10;
-  background-color: white 
+  background-color: white;
+  
+}
+
+nav a:hover{
+    background-color:#02073e;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    transition-duration: 0.2s;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+nav ul li a :hover{
+    color: white;
 }
 
 .navbar .navbar__content{
@@ -27,5 +43,9 @@
 }
 
 .navbar .navbar__content .navbar__links a:hover {
-    color: grey;
+    color: rgb(255, 255, 255);
+}
+
+#navbar a{
+    text-decoration: none;
 }

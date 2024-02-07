@@ -16,9 +16,6 @@
     gap: 4rem;
 }
 
-.projects ul li.projects__reversed-list{
-    flex-direction: row-reverse;
-}
 
 .projects ul li:not(:last-of-type){
     margin-bottom: 12rem;
@@ -41,5 +38,17 @@
     font-weight: bold;
     padding: 3px;
     border-radius: 4px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.21);
+    text-decoration: none;
 
+}
+
+div ul li a{
+    text-decoration: underline;
+}
+
+div .p-principal{
+    padding-top: 5px;
+    padding-right: 0px;
+    padding: 2rem;
 }
