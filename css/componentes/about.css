@@ -1,3 +1,7 @@
+*{
+    font-family: sans-serif;
+}
+
 .about{
     display: flax;
     justify-content: space-between;
